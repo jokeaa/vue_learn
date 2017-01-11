@@ -76,3 +76,32 @@ var todo = new Vue({
         }
 
 });
+
+var vModel = new Vue({
+    el:"#vModel",
+    data:{
+        message:''
+    }
+});
+
+var mutilCheck = new Vue({
+    el:"#mutilCheck",
+    data:{
+        checkedNames:[]
+    }
+});
+
+var radio = new Vue({
+    el:"#radio",
+    data:{
+        picked:''
+    }
+
+});
+
+var seletc = new Vue({
+    el:"#select",
+    data:{
+        selected:''
+    }
+});
