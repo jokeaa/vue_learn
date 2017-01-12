@@ -105,3 +105,19 @@ var seletc = new Vue({
         selected:''
     }
 });
+
+
+Vue.component('simple-counter',{
+    template:'<button v-on:click="counter +=1">{{counter}}</button>',
+    data:function(){
+        return {
+            counter:0
+        }
+    }
+}
+
+);
+
+var component = new Vue({
+    el:"#componentData"
+});

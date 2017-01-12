@@ -42,7 +42,6 @@
                 v-bind:title="todo"
                 v-on:remove="todos.splice(index,1)"
             >
-
             </li>
         </ul>
     </div>
@@ -86,6 +85,14 @@
         </select>
         <span>Selectrd:{{selected}}</span>
     </div>
+    <br>
+    <div id="componentData">
+        <simple-counter></simple-counter>
+        <simple-counter></simple-counter>
+        <simple-counter></simple-counter>
+    </div>
+
+
 </body>
 <script src="../static/vue.js"></script>
 <script src="../static/app.js"></script>
